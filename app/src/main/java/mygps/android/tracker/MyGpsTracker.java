@@ -24,6 +24,11 @@ class GPSPoint {
     public boolean isCorrect = false;
 }
 
+
+/**
+ * @version 0.1
+ * @author Petrov Anton
+ */
 public class MyGpsTracker extends Service implements LocationListener {
 
     private final Context context;
