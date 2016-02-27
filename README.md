@@ -1,2 +1,2 @@
 # Tracker
-MyGPS tracker android application.
+MyGPS tracker android application, working with GPS.
