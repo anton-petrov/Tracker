@@ -10,24 +10,34 @@
     tools:context="mygps.android.tracker.MainActivity">
 
     <Button
+        android:id="@+id/btnShowLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get location"
-        android:id="@+id/btnShowLocation"
-        android:layout_marginTop="85dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:width="150dp" />
+        android:layout_marginTop="85dp"
+        android:width="150dp"
+        android:text="Get location" />
 
     <Button
+        android:id="@+id/btnStartTracking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start gps tracking"
-        android:id="@+id/btnStartTracking"
-        android:layout_marginTop="32dp"
-        android:layout_below="@+id/btnShowLocation"
         android:layout_alignLeft="@+id/btnShowLocation"
         android:layout_alignStart="@+id/btnShowLocation"
+        android:layout_below="@+id/btnShowLocation"
         android:width="150dp"
-        android:enabled="true" />
+        android:enabled="true"
+        android:text="@string/btn_start" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnStartTracking"
+        android:layout_alignLeft="@+id/btnStartTracking"
+        android:layout_alignRight="@+id/btnStartTracking"
+        android:layout_alignStart="@+id/btnStartTracking"
+        android:layout_below="@+id/btnStartTracking"
+        android:text="@string/btn_close" />
 </RelativeLayout>
