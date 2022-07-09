@@ -3,4 +3,7 @@
     <string name="btn_start">Start</string>
     <string name="btn_stop">Stop</string>
     <string name="btn_close">Close</string>
+    <string name="ok">Ok</string>
+    <string name="title_location_permission">Location request</string>
+    <string name="text_location_permission">I need access to your GPS location.</string>
 </resources>
